@@ -1,0 +1,131 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    height: 70px;
+    padding: 0 300px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+}
+.navigation_col img{
+    height: 43px;
+}
+.navigation_col input{
+    width: 215px;
+    padding: 6px 0;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    background-color: #f5f5f5;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+}
+input::placeholder{
+
+}
+.navigation_col input:active{
+    text-align: left;
+}
+.fa-search{
+    position: absolute;
+    color: #babbbe;
+    font-size: 12px;
+    padding-left: 90px;
+    padding-top: 0px;
+    top: 33px;
+    z-index: 2;
+}
+.fa-search:active{
+    text-align: left;
+}
+.navigation_link{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+.feed{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.feed_col{
+    margin-top: 45px;
+    margin-left: 190px; 
+}
+.feed_col img{
+    height: 170px;
+}
+.feed_coll{
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.feed_c{
+    font-size: 2rem;
+    font-style: normal;
+    display: flex;
+}
+.feed_c a p{
+    font-size: 1rem;
+    border: 1px solid #e6e6e6;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.feed_c a{
+    text-decoration: none;
+    color: #000000;
+}
+.feed_co{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.image{
+    margin: 0 150px;
+    border-top: 1px solid #f5f5f5;
+}
+.name{
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    color: #000000;
+    font-size: 0.8rem;
+}
+.name a{
+    text-decoration: none;
+}
+.na1,.na2,.na3,.na4{
+    padding-top: 10px;
+}
+.images{
+    margin-top: 30px;
+}
+.images img{
+    height: 300px;
+    width: 300px;
+    margin: 0 10px;
+}
+.images img:hover{
+    color: #ffffff;
+    opacity: 0.6;
+}
+.footer{
+    margin-top: 400px;
+    margin-left: 130px;
+    font-size: 0.8rem;
+    background-color: yellow;
+    margin-right: 130px;
+    color: darkblue;
+    font-weight: 700;
+}
+.footer span{
+    align-content: space-between;
+}
+.copy{
+    float: right;
+}
